@@ -1,7 +1,7 @@
 class calculator{
     val add = (  a : Int ,  b : Int) => a+b
     val sub = (  a : Int ,  b : Int) => a-b
-    val mul =(  a : Int ,  b : Int) => a*b
+    val mul =  (  a : Int ,  b : Int) => a*b
     val divide = (  a : Int ,  b : Int) => a/b
 }
 
@@ -19,5 +19,6 @@ object Run{
         println("subtraction   = "+obj.sub(a,b)); 
         println("multiplication  = "+obj.mul(a,b)); 
         println("division  = "+obj.divide(a,b)); 
+        println("akjigj")
     }
 }
