@@ -8,11 +8,14 @@ object Run {
             var varChar : Char = 'a'
             var varStr  = "ishant" 
             var a: Boolean = true
+
     def unitTest(a: String) :Unit = {
         println("Unit datatype returns void  ");
     }
+
     val nullVal :String = null 
     val NullVal : Null = null
+    
     def logException() :Nothing = {
         println(" logging Exeption ")
         throw new Exception(" my new Exception")
